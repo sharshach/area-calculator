@@ -14,7 +14,7 @@ export default class DataInput extends React.Component{
         }
     }
     Calculate=()=>{
-        let Answer=((this.state.north+this.state.south)/2)*((this.state.west+this.state.east)/2);
+        let Answer=((parseFloat(this.state.north)+parseFloat(this.state.south))/2)*((parseFloat(this.state.west)+parseFloat(this.state.east))/2);
         if(this.state.div9)Answer=Answer/9;
         if(this.state.div48)Answer=Answer/48.4;
         return <Text>{Answer}</Text>;
