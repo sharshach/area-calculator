@@ -21,6 +21,7 @@
 
 ### Development
 - based on react native with expo . STFW to know more on them
+
 in genral
 - ```npm install``` will install all dependencies
 - ```expo start``` will start the expo dev server
