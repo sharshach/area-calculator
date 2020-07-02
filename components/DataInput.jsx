@@ -5,10 +5,10 @@ export default class DataInput extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            north:200,
-            south:200,
-            east:200,
-            west:200,
+            north:0,
+            south:0,
+            east:0,
+            west:0,
             div9:true,
             div48:true,
         }
