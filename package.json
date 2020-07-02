@@ -27,6 +27,6 @@
     "babel-preset-expo": "~8.1.0"
   },
   "private": true,
-  "name": "Area-Calculator",
+  "name": "AreaCalculator",
   "version": "1.0.0"
 }
